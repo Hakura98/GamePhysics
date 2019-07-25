@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="effect.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MassSpringSystemSimulator.cpp" />
+    <ClCompile Include="TemplateSimulator.cpp" />
+    <ClCompile Include="util\FFmpeg.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="util\util.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="RigidBodySystemSimulator.cpp" />
+    <ClCompile Include="pch.cpp">
+      <Filter>Precompile</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereSystemSimulator.cpp" />
+    <ClCompile Include="SphereSystem.cpp" />
+    <ClCompile Include="SPHSystemSimulator.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MassSpringSystemSimulator.h" />
+    <ClInclude Include="Simulator.h" />
+    <ClInclude Include="TemplateSimulator.h" />
+    <ClInclude Include="DrawingUtilitiesClass.h" />
+    <ClInclude Include="util\FFmpeg.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="util\matrixbase.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="util\quaternion.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="util\timer.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="util\vectorbase.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="util\util.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="util\vector4d.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="collisionDetect.h" />
+    <ClInclude Include="RigidBodySystemSimulator.h" />
+    <ClInclude Include="pch.h">
+      <Filter>Precompile</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereSystemSimulator.h" />
+    <ClInclude Include="SphereSystem.h" />
+    <ClInclude Include="SPHSystemSimulator.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{9a3cfc32-de51-44b6-9710-34e74777ef21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Precompile">
+      <UniqueIdentifier>{8a31db54-373d-475e-82c0-527ac448615b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
